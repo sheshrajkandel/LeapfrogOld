@@ -1,284 +1,339 @@
 <!DOCTYPE html>
-<!--
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"> -->
+<html>
 
 <head>
-    <title>Responsive Web Design | Mobile | Tablet</title>
+    <title>Design Contest | Professional Graphic Designs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
-
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
 </head>
 
 <body>
-    <div class="main-wrapper clearfix">
-        <div class="measurement-wrapper">
-            <div class="header-wrapper">
-                <div class="header-top-wrapper">
-                    <div class="header-top-wrapper-content clearfix">
-                        <div class="header-top-wrapper-logo-search">
-                            <div class="header-top-logo">
-                                <img src="./images/logo.png" alt="header-logo" />
-                            </div>
-                            <div class="header-top-search-wrapper">
-                                <div class="header-top-search-form">
-                                    <input type="text" name="search"
-                                        placeholder="Search by Member , Term or by Title Number" />
-                                </div>
-                                <div class="header-top-search-button">
-                                    <button>Search</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header-top-wrapper-user-info">
-                            <div class="header-top-wrapper-user-top">
-                                <span><a href="#">Joe Burros</a></span>
-                            </div>
-                            <div class="header-top-wrapper-user-nav">
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Settings</a></li>
-                                    <li><a href="#">Log Out</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-bottom-wrapper">
-                    <div class="header-bottom-wrapper-scaled">
-                        <div class="header-bottom-menu-wrapper">
-                            <ul>
-                                <li><a href="#">Create New Entry</a></li>
-                                <li><a href="#">My Topic Boxes</a></li>
-                                <li><a href="#">Friends</a></li>
-                                <li><a href="#">Invite New Member</a></li>
-                            </ul>
-                        </div>
-                        <div class="header-bottom-side-wrapper">
-                            <ul>
-                                <li><a href="#" class="active invites">Topic box Invites - <span>2</span></a></li>
-                                <li><a href="#" class="friend">Friend requests - <span>0</span></a></li>
+    <!--Header with background image-->
+    <div class="main-container">
+        <div class="header-container">
+            <div class="header-top-wrapper">
+                <div class="header-top  content-area clearfix">
+                    <ul>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest"></a></li>
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                        <li><a href="#" class="fa fa-tumblr"></a></li>
+                    </ul>
 
-                            </ul>
-                        </div>
-                    </div>
+                    <span class="contacts">
+                        <i class="fa fa-envelope-o"><span style="padding-left:10px;">info@company.com</span></i>
+                        <i class="fa">|</i>
+                        <i class="fa fa-phone"><span style="padding-left:10px;">0800 123 456 78900</span></i>
+                    </span>
                 </div>
             </div>
-            <div class="body-wrapper clearfix">
-                <div class="body-left-main-wrapper">
-                    <div class="body-most-left-wrapper">
-                        <div class="body-recent-searches-wrapper">
-                            <div class="body-recent-searches-title">
-                                Recent Searches 1
-                            </div>
-                            <div class="body-recent-searches-list">
-                                <ul>
-                                    <li><a href="#" class="downloadable active ">Nick Cave and</a></li>
-                                    <li><a href="#" class="downloadable">African Animals</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="body-recent-searches-wrapper">
-                            <div class="body-recent-searches-title">
-                                Recent Searches 2
-                            </div>
-                            <div class="body-recent-searches-list">
-                                <ul>
-                                    <li><a href="#" class="moreinfo">Different versions of the Tristan und isolde
-                                            prelude</a></li>
-                                    <li><a href="#" class="moreinfo">Music</a></li>
-                                    <li><a href="#" class="moreinfo">Guitar</a></li>
-                                    <li><a href="#" class="moreinfo">Bob Cohen</a></li>
-                                    <li><a href="#" class="moreinfo">Mark Schnack</a></li>
-                                    <li><a href="#" class="moreinfo">Jefferson Dickey</a></li>
 
-                                </ul>
-                            </div>
-                        </div>
+            <div class="header-bottom-wrapper">
+                <div class="header-logo-nav content-area clearfix">
+                    <div class="logo">
+                        <i class="fa fa-bars"></i>
+                        <img src="./images/logo-design.png" alt="header-logo">
+                        <i class="fa fa-user-circle"></i>
                     </div>
-                    <div class="body-middle-wrapper">
-                        <div class="body-main-header-wrapper">
-                            <span>Entries</span>
-                        </div>
-                        <div class="body-main-body-wrapper clearfix">
-                            <div class="body-main-entries-top-wrapper">
-
-                                <div class="body-main-entries-top-text1">
-                                    <span>All Entries</span>
-                                </div>
-                                <div class="body-main-entries-top-text2">
-                                    <span>Subscribed</span>
-                                </div>
-
-                            </div>
-                            <div class="body-main-entries-bottom-wrapper">
-                                <div class="body-main-tabs">
-                                    <ul>
-                                        <li class="active"><a href="#">All Members</a></li>
-                                        <li style="margin-right:11px"><a href="#">Friends</a></li>
-                                        <li style="margin-left:11px"><a href="#">New Entries</a></li>
-                                        <li><a href="#">New Comments</a></li>
-                                    </ul>
-                                </div>
-                                <div class="body-main-content">
-                                    <div class="body-main-stories">
-                                        <div class="body-main-stories-image-wrapper">
-                                            <div class="body-main-stories-image-cover">
-                                                <img src="./images/frame.png" alt="frame-bg" />
-                                            </div>
-                                            <img src="./images/1.png" height="70px" width="70px"
-                                                alt="post-profile-image" />
-                                        </div>
-                                        <div class="body-main-stories-info-wrapper">
-                                            <a href="#" class="post-title">
-                                                <h3>Day for Night by Francois Truffaut, a ground breaking film</h3>
-                                            </a>
-                                            <ul>
-                                                <li>by:<a href="#" class="bodylink"> Alan Coe</a></li>
-                                                <li>Feburary 16 2019</li>
-                                                <li><a class="linkspan" href="#">Subscribed</a></li>
-                                            </ul>
-                                            <span>From Topic Box: <a href="#" class="bodylink">My Favorite
-                                                    Movies</a></span>
-                                        </div>
-                                    </div>
-                                    <div class="body-main-stories">
-                                        <div class="body-main-stories-image-wrapper">
-                                            <div class="body-main-stories-image-cover">
-                                                <img src="./images/frame.png" alt="frame-bg" />
-                                            </div>
-                                            <img src="./images/2.png" height="70px" width="70px"
-                                                alt="post-profile-image" />
-                                        </div>
-                                        <div class="body-main-stories-info-wrapper">
-                                            <span class="notification">New Entry!</span>
-                                            <a href="#" class="post-title">
-                                                <h3>Blade Runner, The Director's Cut</h3>
-                                            </a>
-                                            <ul>
-                                                <li>by:<a href="#" class="bodylink"> Mary Pilot</a></li>
-                                                <li>Feburary 16 2019</li>
-                                                <li><a class="linkspan" href="#">Status</a></li>
-                                            </ul>
-                                            <span>From Topic Box: <a href="#" class="bodylink">Behind the
-                                                    Scene</a></span>
-                                        </div>
-                                    </div>
-                                    <div class="body-main-stories">
-                                        <div class="body-main-stories-image-wrapper">
-                                            <div class="body-main-stories-image-cover">
-                                                <img src="./images/frame.png" alt="frame-bg" />
-                                            </div>
-                                            <img src="./images/3.png" height="70px" width="70px"
-                                                alt="post-profile-image" />
-                                        </div>
-                                        <div class="body-main-stories-info-wrapper">
-                                            <span class="notification">New Comment!</span>
-                                            <a href="#" class="post-title">
-                                                <h3>The Best French Restaurant in Chicago?</h3>
-                                            </a>
-                                            <ul>
-                                                <li>by:<a href="#" class="bodylink"> John Roy</a></li>
-                                                <li>Feburary 16 2019</li>
-                                                <li><a class="linkspan" href="#">Status</a></li>
-                                            </ul>
-                                            <span>From Topic Box: <a href="#" class="bodylink">Chicago Restaurant
-                                                    Reviews</a></span>
-                                        </div>
-                                    </div>
-                                    <div class="body-main-stories">
-                                        <div class="body-main-stories-image-wrapper">
-                                            <div class="body-main-stories-image-cover">
-                                                <img src="./images/frame.png" alt="frame-bg" />
-                                            </div>
-                                            <img src="./images/4.png" height="70px" width="70px"
-                                                alt="post-profile-image" />
-                                        </div>
-                                        <div class="body-main-stories-info-wrapper">
-                                            <span class="notification-alert" style="color: red;">Must Check!!</span>
-                                            <a href="#" class="post-title">
-                                                <h3>The Meaning of Night. Dark Book but incredibly well written.</h3>
-                                            </a>
-                                            <ul>
-                                                <li>by:<a href="#" class="bodylink"> John-Peter Molse</a></li>
-                                                <li>Feburary 16 2019</li>
-                                                <li><a class="linkspan" href="#">Status</a></li>
-                                            </ul>
-                                            <span>From Topic Box: <a href="#" class="bodylink">Books Read & Books to
-                                                    Read</a></span>
-                                        </div>
-                                    </div>
-                                    <div class="body-main-stories">
-                                        <div class="body-main-stories-image-wrapper">
-                                            <div class="body-main-stories-image-cover">
-                                                <img src="./images/frame.png" alt="frame-bg" />
-                                            </div>
-                                            <img src="./images/5.png" height="70px" width="70px"
-                                                alt="post-profile-image" />
-                                        </div>
-                                        <div class="body-main-stories-info-wrapper">
-                                            <a href="#" class="post-title">
-                                                <h3>Pea Pesto</h3>
-                                            </a>
-                                            <ul>
-                                                <li>by:<a href="#" class="bodylink"> Marianne Glg</a></li>
-                                                <li>Feburary 16 2019</li>
-                                                <li><a class="linkspan" href="#">Status</a></li>
-                                            </ul>
-                                            <span>From Topic Box: <a href="#" class="bodylink">Favorite
-                                                    Recipes</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="body-right-main-wrapper">
-                    <div class="body-recent-searches-wrapper">
-                        <div class="body-recent-searches-title">
-                            Video Tutorials
-                        </div>
-                        <div class="body-recent-searches-list">
-                            <ul>
-                                <li><a href="#">Overview of TuTangle</a></li>
-                                <li><a href="#" class="active">Searching the Site</a></li>
-                                <li><a href="#">Previous &amp; Saved Searches</a></li>
-                                <li><a href="#">The Topic Box Page</a></li>
-                                <li><a href="#">Creating a Topic Box</a></li>
-                                <li><a href="#">View Topic Box Entries</a></li>
-                                <li><a href="#">Creating an Entry</a></li>
-                                <li><a href="#">Privacy Settings</a></li>
-                                <li><a href="#">Co-Authoring</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-wrapper">
-                <div class="footer-content clearfix">
-                    <div class="footer-menu-wrapper">
+                    <div class="header-navigation">
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li>
+                                <div class="subnav">
+                                    <a class="subnavbtn">Browse Catagories <i class="fa fa-caret-down"></i></a>
+                                    <div class="subnav-content">
+                                        <a href="#company">Company</a>
+                                        <a href="#team">Team</a>
+                                        <a href="#careers">Careers</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">How It Works</a></li>
+                            <li><a href="#">Browse Contest</a></li>
+                            <li><a href="#">Pricing Plan</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
                         </ul>
                     </div>
-                    <div class="footer-copyright-wrapper">
-                        <span>&copy; TuTangle 2013</span>
+                </div>
+                <div class="banner-content-wrapper content-area">
+                    <div class="banner-logo">
+                        <span class="logo-only">
+                            <img src="./images/logo.png" alt="logo-banner">
+                        </span>
+
+                        <span class="banner-heading">
+                            <h1>Professional Graphic Designs</h1>
+                        </span>
+                    </div>
+                    <div class="button-checkbox">
+                        <sapn>
+                            <button class="banner-button">Get Started Now</button>
+                        </sapn>
+                        <span class="banner-button-info">
+                            <i class="fa fa-check-square-o" aria-hidden="true">
+                                100%</i>Money Back Gurantee
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--Body Main Container-->
+
+        <div class="body-main-container content-area">
+            <div class="body-catagories-wrapper">
+                <div class="categories-heading">
+                    <h2>What do you need design</h2>
+                    <span>
+                        <p>How does one design and develop for the responsive web? A lot of methodologies</p>
+                    </span>
+                </div>
+                <div class="catagories-icons clearfix">
+                    <ul>
+                        <li>
+                            <img src="./images/icon-logo-design.png" alt="icon-logo-design">
+                            <span class="icon-info">Logo Design</span>
+                        </li>
+                        <li>
+                            <img src="./images/icon-photography.png" alt="icon-photography">
+                            <span class="icon-info">Photography</span>
+                        </li>
+                        <li>
+                            <img src="./images/icon-branding.png" alt="icon-branding">
+                            <span class="icon-info">Branding</span>
+                        </li>
+                        <li>
+                            <img src="./images/icon-website-design.png" alt="icon-website-design">
+                            <span class="icon-info">Website Design</span>
+                        </li>
+                        <li>
+                            <img src="./images/icon-tshirt-design.png" alt="icon-tshirt-design">
+                            <span class="icon-info">T-Shirt Design</span>
+                        </li>
+                        <li>
+                            <img src="./images/icon-packaging-design.png" alt="icon-packaging-design">
+                            <span class="icon-info">Packaging Design</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="catagories-button">
+                    <button class="view-btn">View All Catagories</button>
+                </div>
+            </div>
+
+            <div class="data-video-wrapper">
+                <div class="data-info">
+                    <ul>
+                        <li>
+                            <span class="data">313</span>
+                            <span class="data-caption">New Contest Today</span>
+                        </li>
+                        <li>
+                            <span class="data">5171</span>
+                            <span class="data-caption">Open Contest</span>
+                        </li>
+                        <li>
+                            <span class="data">33612</span>
+                            <span class="data-caption">Contest To Date</span>
+                        </li>
+                        <li>
+                            <span class="data">$8515</span>
+                            <span class="data-caption">Payout Last Month</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="graphic-design-info">
+                    <div class="heading-upper">
+                        <span>
+                            <h2>Graphic Design Made Easy</h2>
+                        </span>
+                        <span>
+                            <p>How does one design and develop for the responsive web? A lot of methodologies</p>
+                        </span>
+                    </div>
+                    <div class="design-info-lower">
+                        <div class="graphic-info">
+                            <span>
+                                <h3>Need Work Done?</h3>
+                            </span>
+                            <span>
+                                <p>Post your project and receive competitive bids from freelancers within minutes. Our
+                                    reputation system will make it easy.</p>
+                            </span>
+                            <ul>
+                                <li>
+                                    <img src="./images/icon-cup.png" alt="icon-cup">
+                                    <!--Testing-->
+                                    <span class="title-desc">
+                                        <span class="title">Pick Your Favorite</span>
+                                        <span>
+                                            <p>Fill in our design brief and choose how much you'll pay.</p>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <img src="./images/icon-dozen-design.png" alt="icon-dozens">
+                                    <span class="title">Get Dozens of Designs</span>
+                                    <span>
+                                        <p>Fill in our design brief and choose how much you'll pay.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <img src="./images/icon-tell-us.png" alt="icon-tell-us">
+                                    <span class="title">Tell Us What You Need</span>
+                                    <span>
+                                        <p>Fill in our design brief and choose how much you'll pay.</p>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="play-video">
+                            <video width="320" height="240" controls>
+                                <source src="./videos/graphic-design.mp4">
+                                Your browser does not support video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Examples of Graphic Designs-->
+            <div class="explore-more">
+                <button class="accordion">Explore More</button>
+                <div class="panel">
+                    <p>Coming soon!</p>
+                </div>
+            </div>
+            <!-- Graphics designs container -->
+            <div class="graphic-design-block">
+                <div class="graphic-design-body">
+                    <div class="graphic-design-header">
+                        <h1>EXAMPLES OF GRAPHIC DESIGN</h1>
+                        <div class="next-prev-buttons">
+                            <span class="prev"></span>
+                            <span class="next"></span>
+                        </div>
+                    </div>
+                    <div class="graphic-design-main">
+                        <div class="graphic-design-box graphic-design-box1">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box2">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box3">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box4">
+
+                        </div>
+                    </div>
+                    <div class="graphic-design-main">
+                        <div class="graphic-design-box graphic-design-box5">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box6">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box7">
+
+                        </div>
+                        <div class="graphic-design-box graphic-design-box8">
+
+                        </div>
+                    </div>
+                    <div class="clearfix">
+
+                    </div>
+                    <button>BROWSE ALL CONTEST</button>
+                </div>
+
+            </div>
+            <!-- testimonials block -->
+            <div class="testimonials-container">
+                <div class="testimonials-body">
+                    <div class="testimonials-header">
+                        <h1>OUR TESTIMONIALS</h1>
+                        <span class="underline"></span>
+                        <p>How does one design and develop for the responsive web? A lot of methodologies</p>
+                    </div>
+                    <div class="testimonials-box">
+                        <div class="testimonials">
+                            <p>"Lorem ipsum dolor onsectetur adipisicing elit. Distinctio quaerat maiores ullam totam,
+                                voluptates tempora soluta expedita eveniet quisquam
+                                "</p>
+                            <p class="rating">3 star rating&nbsp; <span class="dark"></span><span
+                                    class="dark"></span><span class="dark"></span>
+                                <span class="light"></span>
+                                <span class="light"></span>
+                            </p>
+                            <h2>JHONE ANGELIA DOC</h2>
+                        </div>
+                        <div class="testimonials">
+                            <p>"Lorem ipsum dolor onsectetur adipisicing elit. Distinctio quaerat maiores ullam totam,
+                                voluptates tempora soluta expedita eveniet quisquam
+                                "</p>
+                            <p class="rating">5 star rating&nbsp;
+                                <span class="dark"></span><span class="dark"></span><span class="dark"></span>
+                                <span class="dark"></span>
+                                <span class="dark"></span>
+                            </p>
+                            <h2>JHONE ANGELIA DOC</h2>
+                        </div>
+                        <div class="clearfix">
+
+                        </div>
+                    </div>
+
+                    <div class="testimonials-footer">
+                        <div class="next-prev-buttons next-prev-buttons1">
+                            <span class="prev"></span>
+                            <span class="next"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--END Graphic Design-->
+
+            <!--Our Testimonials-->
+        </div>
+
+
+        <!--Footer-->
+
+        <div class="footer-container">
+            <div class="footer-top-wrapper">
+
+            </div>
+            <div class="footer-bottom-wrapper">
+                <div class="content-area clearfix">
+                    <div class="rights-reserved">
+                        <span class="copyright">&copy; 2015 | All Rights Reserved</span>
+                    </div>
+
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contest">Contest</a></li>
+                            <li><a href="#pages">Pages</a></li>
+                            <li><a href="#register">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-
 </body>
-
 
 </html>
