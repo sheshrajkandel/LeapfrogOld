@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  background-color: gray;
+  width: 80%;
+}
+/* .carousel-image {
+  position: relative;
+  left: 0px;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+.carousel-image img {
+  width: 100%;
+  left: 0px;
+  position: relative;
+  display: inline-block;
+} */
