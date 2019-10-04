@@ -1,0 +1,24 @@
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .container {
+  position: relative;
+  overflow: hidden;
+  /* width: 100%; */
+  /* height: 500px; */
+} */
+.wrapper {
+  width: 1200%; /* Dynamically Changing Value*/
+  background-color: green;
+}
+.wrapper img {
+  width: 800px;
+  height: 200px;
+  float: left;
+  /* position: absolute; */
+}
+
